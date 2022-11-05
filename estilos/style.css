@@ -57,6 +57,12 @@ footer {
 
 .fotoinicio {
   width: 100%;
+  height: 335px;
+  border: 0.2em solid black;
+}
+
+.text-color-red{
+    color: red;
 }
 
 /*DISCOGRAFIA*/
@@ -132,8 +138,9 @@ footer {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
-  background-color: rgb(251, 251, 161);
-  opacity: 0.3;
+  background: linear-gradient(to top, gray, red); 
+  width: 90%;
+  
 }
 
 .letra2 {
@@ -145,7 +152,7 @@ footer {
 }
 
 /*VIVOS*/
-.main3 {
+.main-vivos {
   margin-bottom: 100px;
 }
 
@@ -230,24 +237,24 @@ label {
 .ubicacion-formulario {
   background-color: black;
   opacity: 0.7;
-  width: 300px;
+  width: auto;
   margin: 0% 0% 0% 0%;
   border: solid 0.1em red;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0% 37%;
+  
 }
 
 .titulo-contactos {
   background-color: black;
   opacity: 0.7;
-  width: 500px;
+  width: 100%;
   margin: 0% 0% 0% 0%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0% 30%;
+  
 }
 
 .footer {
@@ -268,31 +275,35 @@ label {
 }
 
 .foto3 {
-  width: 500px;
+  width: 100%;
   height: 335px;
   border: 0.2em solid black;
 }
 
 .foto5 {
-  width: 500px;
+  width: 100%;
   height: 330px;
   border: 0.2em solid black;
 }
 
 .foto1 {
   border: 0.2em solid black;
+  width: 100%;
 }
 
 .foto2 {
   border: 0.2em solid black;
+  width: 100%;
 }
 
 .foto4 {
-  border: 0.2em solid black;
+   width: 100%;
+    border: 0.2em solid black;
 }
 
 .foto6 {
-  border: 0.2em solid black;
+  width: 100%;
+    border: 0.2em solid black;
 }
 
 /*RESPONSIVE*/
@@ -316,6 +327,65 @@ label {
   .videos {
     width: auto;
   }
+
+
+/*vivos*/
+    .vivos1
+    {
+        display: flex;
+        flex-direction: column;    
+    }
+    .vivos2
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+.main-vivos
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
+.videosvivos
+{
+    width: 100%;
+}
+
+    /*maindiscografia*/    
+   .album1
+   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+   }     
+   .album2
+   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+   }     
+   .videoss
+   {
+    width: auto;
+   }
+
+
+/*GALERIA*/
+
+  .grid {
+  grid: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+   
+   }
+
+}
+
 
 /*# sourceMappingURL=style.css.map */
